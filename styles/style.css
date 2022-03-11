@@ -218,12 +218,112 @@ img, picture, video{
 }
 
 .cb-2{
-    background-image: url(recursos/enfermera.jpg);
+    background-image: url(../assets/enfermera.jpg);
     background-blend-mode: soft-light;
     height: 70rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.banner{
+    position: absolute;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 10px 40px rgba(3, 19, 23, 0.25);
+    border-radius: 1rem;
+    margin: -16rem 1rem 1rem 15rem;
+    background-color: var(--blanco);
+}
+
+.cnt-ban i{
+    color: var(--azul);
+}
+
+.cnt-ban p{
+    padding-left: 1rem;
+}
+
+.btn-bann{
+    padding: 2rem;
+}
+
+.btn-bann a{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/*==================================
+                CARRUSEL
+====================================*/
+.carrusel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.carrusel img{
+    object-fit: cover;
+}
+/*==================================
+             INFORMACION
+====================================*/
+
+.informacion h2{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 4rem;
+    width: 90%;
+    text-align: left;
+}
+
+.informacion p{
+    color: var(--gris);
+    font-size: 2rem;
+    width: 50%;
+}
+
+.tarjetas{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.tarjeta{
+    box-shadow: 0px 5px 15px rgba(222, 240, 255);
+    border-radius: .5rem;
+    padding: 3rem;
+}
+
+.tarjeta i{
+    color: var(--azul);
+    background-color: var(--celeste);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 3rem;
+}
+
+.tarjeta h3{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: left;
+}
+
+.tarjeta p{
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 100%;
+}
+
 
 
