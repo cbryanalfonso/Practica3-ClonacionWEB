@@ -324,6 +324,270 @@ img, picture, video{
     font-size: 1.5rem;
     width: 100%;
 }
+/*==================================
+             PREPARACION
+====================================*/
+
+.cnt-preparation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.img-preparation{
+    margin-top: 5rem;
+    padding-left: 8rem;
+    background-image: url(../assets/paciente.jpg);
+    background-blend-mode: soft-light;
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.contenido-preparacion h2{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.contenido-preparacion p{
+    color: var(--gris);
+    font-size: 2rem;
+    width: 100%;
+}
+
+.acordeon{
+    margin-top: 2rem;
+    padding: 4rem;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion {
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: var(--blanco);
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 5px rgb(216, 216, 216);
+    transition-duration: 0.5s;
+  }
+  
+  .accordion i{
+    font-size: 2rem;
+    color: var(--azul);
+    padding-right: 1rem;
+    background-color: var(--celeste);
+    padding: .8rem;
+    border-radius: .5rem;
+  }
+
+  .active, .accordion:hover {
+    transition-duration: 0.5s;
+    background-color: var(--celeste);
+  }
+  
+  .panel {
+    transition-duration: 0.5s;
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .panel p{
+    color: var(--gris);
+    font-size: 1.6rem;
+  }
+
+/*==================================
+             CONTACTO
+====================================*/
+.cnt-contact{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.ctn-ctc h2{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+.ctn-ctc p{
+    color: var(--gris);
+    font-size: 2rem;
+    width: 90%;
+}
+
+.img-contact{
+    margin-top: 10rem;
+    padding-left: 8rem;
+    background-image: url(../assets/enfermero.jpg);
+    background-blend-mode: soft-light;
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.cnt-tarjetas{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.cnt-tarjeta{
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 5px rgb(216, 216, 216);
+}
+
+.contenido-trj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-trj i{
+    color: var(--azul);
+    font-size: 2rem;
+    background-color: var(--celeste);
+    padding: 1.5rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.contenido-trj h3{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.contenido-trj p{
+    color: var(--gris);
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+.btn-celeste{
+    background-color: var(--celeste);
+    color: var(--azul);
+    font-weight: var(--grande);
+    font-family: var(--fuente-principal);
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+}
+
+.btn-celeste:hover{
+    transition-duration: 0.4s;
+    background-color: var(--azul);
+    color: var(--celeste);
+    font-weight: var(--regular);
+    font-family: var(--fuente-principal);
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+}
 
 
+/*==================================
+             FOOTER
+====================================*/
+
+.ctn-foot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer{    
+    background-color: var(--celeste); 
+    padding: 4rem;
+}
+.leyenda{    
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.foot-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.ft-mnu h2{
+    color: var(--azul-fuerte);
+    font-weight: var(--grande);
+    font-family: var(--funte-titulo-bold);
+    text-transform: initial;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.lista li{
+    margin-top: 2rem;
+}
+
+.lista a{
+    color: var(--gris);
+    font-size: 1.5rem;    
+}
+
+.copy p{
+    color: var(--gris);
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
 
